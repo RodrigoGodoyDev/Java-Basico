@@ -1,0 +1,57 @@
+package com.royalwebgroup;
+
+public class Operadores {
+
+    public static void main(String[] args){
+
+        // Operadores
+
+        // Aritmeticos
+
+        // + - / * %
+        int numero1 = 5;
+        int numero2 = 2;
+
+        int resultado = numero1 + numero2;
+        int resultado2 = numero1 - numero2;
+        int resutlado3 = numero1 * numero2;
+        int reultado4 = numero1 / numero2;
+
+        // logicos, relacion, comparacion, booleanos
+
+        /*
+        >
+        >=
+        <
+        <=
+        ==
+        !=
+        &&
+        || or
+        ! negar un valor
+         */
+
+        // asignacion
+
+        /*
+        =
+        +=
+        -=
+        /=
+        *=
+        %=
+
+         */
+
+        // incremento
+        // ++
+
+        // descremento
+        // --
+
+        // concadenacion
+        // +
+
+
+    }
+}
