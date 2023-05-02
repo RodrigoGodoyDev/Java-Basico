@@ -1,0 +1,28 @@
+package com.royalwebgroup;
+
+import java.sql.SQLOutput;
+
+public class funciones {
+
+    public static void main(String[] args) {
+       // holaMundo();
+        // holaMundo();
+
+       // holaMundo("Rodrigo");
+        // holaMundo("Alan");
+        String hola = devolverhola();
+        System.out.println(hola);
+    }
+
+    private static void holaMundo() {
+        System.out.println("Hola mundo desde un método");
+        System.out.println("Hola mundo desde un método");
+    }
+    private static void holaMundo(String name) {
+        System.out.println("Hola " + name);
+    }
+    private static String devolverhola () {
+        return "hola";
+    }
+
+}
